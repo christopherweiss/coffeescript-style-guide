@@ -129,13 +129,13 @@ Additional recommendations:
 
         ```coffeescript
            # Yes
-           x = 1
-           y = 1
-           fooBar = 3
-
-           # No
            x      = 1
            y      = 1
+           fooBar = 3        
+
+           # No
+           x = 1
+           y = 1
            fooBar = 3
         ```
 
