@@ -33,6 +33,7 @@ The details in this guide have been very heavily inspired by several existing st
         * [Block Comments](#block_comments)
         * [Inline Comments](#inline_comments)
     * [Naming Conventions](#naming_conventions)
+    * [JavaScript-Specific Classes](#javascript_specific_classes)
     * [Functions](#functions)
     * [Strings](#strings)
     * [Conditionals](#conditionals)
@@ -283,6 +284,16 @@ In cases where method calls are being chained, some adopters of this style prefe
 ```
 
 The function grouping style is not recommended. However, **if the function grouping style is adopted for a particular project, be consistent with its usage.**
+
+<a name="javascript_specific_classes"/>
+## JavaScript-specific classes
+
+Using ```JavaScript-specific classes``` help to reduce the risk that thematic or structural changes to components will break any JavaScript.
+Use certain classes only for JavaScript hooks ```js-*```:
+
+```html
+<a href="/login" class="btn btn-primary js-login"></a>
+```
 
 <a name="strings"/>
 ## Strings
